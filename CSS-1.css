@@ -1,10 +1,11 @@
 
 nav{
  color: darkorange;   
- text-align: center;   
+ text-align: center;
+ display: inline-block;   
 }
 main{
-  background-image: url(AntiguoEgipto.jpg);
+  background-image: url("AntiguoEgipto.jpg");
   text-align: left;  
 }
 footer{
