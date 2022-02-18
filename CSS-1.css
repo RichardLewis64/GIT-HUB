@@ -1,21 +1,54 @@
 
 nav{
- color: darkorange;   
- text-align: center;
- display: inline-block;   
+   background-color: rgb(102, 135, 206);
+ color: rgb(213, 216, 223);   
+ text-align: left;
+   height: 80%;
+   padding-left: 2%;
+}
+body{
+   background-color: black;
 }
 main{
-  background-image: url("imajenes/AntiguoEgipto.jpg");
-  text-align: left;  
+  background-color: goldenrod;
+  text-align: left; 
+  font: size 15px;
+height: 80%;
+float: left;
+padding-left: 2%;
+padding-right: 5%;
 }
 footer{
     text-align: left;
+    background-color: rgb(97, 143, 172);
 }
 p{
    text-align:left; 
    color: black;
+
+}
+a{
+   text-align: justify;
+   color: rgb(19, 17, 17); 
+   font-size: 30px;
+}
+h2{
+   text-align: justify;
+   color: rgb(19, 17, 17);
 }
 h3{
    text-align: center;
    color: rgb(26, 19, 19); 
 }
+aside{
+  background-color: rgb(131, 131, 231);
+  padding-left: 1%;
+  height: 20%; 
+  display: block;
+}
+ image{
+   padding-left: 2%;
+ }
+ html{
+    display: block;
+ }
