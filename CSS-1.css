@@ -42,9 +42,10 @@ h3{
 }
 aside{
   background-color: rgb(131, 131, 231);
-  padding-left: 1%;
-  height: 20%; 
-  display: block;
+  padding-left:2%;
+}
+#aside{
+   height: 150px;
 }
  image{
    padding-left: 2%;
