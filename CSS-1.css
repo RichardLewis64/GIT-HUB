@@ -48,6 +48,9 @@ aside{
 }
 #aside{
    height: 150px;
+   display:flexbox ;
+   object-position: right;
+   justify-content: end;
 }
  image{
    padding-left: 2%;
