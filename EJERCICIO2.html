@@ -4,11 +4,46 @@
 <head>
 	<meta charset="UTF-8">
 	<title>EJERSICIO 2</title>
+<<<<<<< HEAD
 	<link rel="stylesheet" href="ESTILOS.css">
     <script src="Factorial.js"></script>
 </head>
 <body>
 	<h1>FACTORIAL</h1>
+=======
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<h1>FACTORIAL</h1>
+<script>
+
+function Factorial()
+{
+
+var num =parseFloat(prompt("INGRESE UN NUMERO"));
+var total=1;
+
+for(i=0;i<=num;i++){
+
+total=total*i;
+}
+
+if(num=0){
+       
+       return 1;
+
+   } else {
+       return num*Factorial(num-1);
+   }
+  
+}
+
+alert("EL FACTORIAL DEL NUMERO"+num+"ES: "+total)
+
+Factorial()
+
+</script>
+>>>>>>> 09ad32797bbab7ff105e55e9c762e53f4d7f5fca
 	
 
 	

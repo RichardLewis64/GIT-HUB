@@ -23,6 +23,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 footer{
     text-align: left;
     background-color: rgb(97, 143, 172);
+    margin: 2px;
 }
 p{
    text-align:left; 
@@ -45,9 +46,8 @@ h3{
 aside{
   background-color: rgb(131, 131, 231);
   padding-left:2%;
-}
-#aside{
-   height: 150px;
+  height: 150px;
+  margin: 2px;
 }
  image{
    padding-left: 2%;
@@ -55,3 +55,4 @@ aside{
  html{
     display: block;
  }
+ 

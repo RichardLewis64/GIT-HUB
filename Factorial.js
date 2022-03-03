@@ -8,6 +8,7 @@ function Factorial(num)
         return num*Factorial(num-1);
     }
 }
+<<<<<<< HEAD
 console.log(Factorial(5)
 
 /*function Factorial()
@@ -38,3 +39,6 @@ for(i=0;i<=num;i++){
       
     }
 */
+=======
+console.log(Factorial(10));
+>>>>>>> 09ad32797bbab7ff105e55e9c762e53f4d7f5fca
